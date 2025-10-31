@@ -26,7 +26,7 @@ It covers all necessary configurations — from installing dependencies to deplo
 
 ---
 
-## ⚙️ Step 1: System Preparation
+## ⚙️ Step 1: System Preparation for both Master Node & Worker Node
 
 ### A) Update and upgrade system
 
@@ -70,7 +70,7 @@ EOF
 sudo sysctl --system
 ````
 
-## Step 2: Install Container Runtime (Containerd)
+## Step 2: Install Container Runtime (Containerd) both Master & Worker 
 
 ### A) Install containerd
 ````bash
@@ -92,7 +92,7 @@ sudo systemctl enable containerd
 ````
 
 
-## Step 3: Install Kubernetes Components
+## Step 3: Install Kubernetes Components - both Master & Worker 
 ````bash
 sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.30/deb/Release.key | \
