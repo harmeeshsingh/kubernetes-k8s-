@@ -138,4 +138,12 @@ Aman Patel
 
 
 
+# step 7 Initalization of master node
+sudo kubeadm init --pod-network-cidr=192.168.0.0/16
+
+# step 8 Add calico for the master node 
+https://docs.tigera.io/calico/latest/getting-started/kubernetes/quickstart
+
+
+
 
